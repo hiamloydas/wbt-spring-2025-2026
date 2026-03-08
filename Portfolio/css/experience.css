@@ -1,0 +1,79 @@
+/* Header Styling */
+.header-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.header-section h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-section h3 {
+    margin: 5px 0 20px;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Navigation */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.nav-links li a.active {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Main Section */
+.main-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: #222;
+}
+
+.main-section img {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Remove bullets from lists */
+.main-section ul {
+    list-style: none; /* removes bullets */
+    padding-left: 0;  /* aligns with text */
+    margin-left: 0;
+}
+
+/* Small spacing between list items */
+.main-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}

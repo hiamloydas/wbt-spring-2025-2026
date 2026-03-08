@@ -1,0 +1,76 @@
+/* Selector {
+    Property: value;
+} */
+
+/* 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* 3 */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* 4 */
+nav ul {
+    margin-top: 15px;
+}
+
+/* 5 */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* 6 */
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 7 */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* 8 */
+section img {
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* 9 */
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* 10 */
+p {
+    margin-bottom: 10px;
+}
+
+/* 11 */
+hr {
+    margin: 25px auto;
+    width: 60%;
+}
+
+/* 12 */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
